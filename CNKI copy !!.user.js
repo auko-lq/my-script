@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         CNKI copy !!
 // @namespace    http://tampermonkey.net/
-// @version      1.1.0
+// @version      1.1.3
 // @description  Lifting copy restrictions on CNKI online reading
 // @description:zh-CN  解除知网在线阅读时复制限制
 // @author       auko
@@ -36,6 +36,7 @@
         document.getElementById("proxy").onclick = function(e){
             if(document.getElementById("aukoToProxy")){
                 document.getElementById("aukoToProxy").value = selectText;
+				document.getElementById("aukoToProxy").select();
             }else{
                 var temp = document.createElement('input');
                 temp.value = selectText;
