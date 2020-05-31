@@ -6,7 +6,7 @@
 // @description:zh-CN  解除知网在线阅读时复制限制
 // @author       auko
 // @supportURL   https://github.com/aukocharlie/my-script
-// @include      http://kns.cnki.net*/*/Detail*
+// @include      *://kns.cnki.net*/*/Detail*
 // @grant        none
 // ==/UserScript==
 
