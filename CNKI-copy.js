@@ -1,12 +1,13 @@
 // ==UserScript==
 // @name         解除知网复制限制CNKI copy !!
 // @namespace    http://tampermonkey.net/
-// @version      1.1.4
+// @version      1.1.8.x
 // @description  Lifting copy restrictions on CNKI online reading
 // @description:zh-CN  解除知网在线阅读时复制限制
 // @author       auko
 // @supportURL   https://github.com/aukocharlie/my-script
-// @include      *://kns.cnki.net*/*/Detail*
+// @match      *://*.cnki.net*/*/Detail*
+// @match      *://*/rwt/CNKI/https/*/KXReader/Detail*
 // @grant        none
 // ==/UserScript==
 
